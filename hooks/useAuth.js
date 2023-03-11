@@ -4,6 +4,13 @@ import * as Google from 'expo-google-app-auth';
 const AuthContext = createContext({});
 
 export const AuthProvider = ({children}) => {
+
+  // const [user, setUser] = React.useState(null);
+  // const signInWithGoogle = async () => {
+  //   await Google.logInAsync()
+  // }
+
+
   return (
     <AuthContext.Provider 
         value={{
